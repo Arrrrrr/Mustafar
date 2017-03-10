@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Publishing is sort of funish most of the time.
 
-You can use the [editor on GitHub](https://github.com/Arrrrrr/Mustafar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+How much fun? Just keep scrolling to find out.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1.) DTD (death-star.dtd): A DTD structures your XML. A DTD tells your XML file which element tags it is allowed to use. Information architects develop DTDs to control the structure of content.
 
-### Markdown
+2.) XML (death-star.xml): A file written in element tags. Its structure is controlled by the DTD. Authors write content in XML files.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3.) XSL (death-star.xsl): A file that converts XML into another file format, such as HTML or PDF. Information architects develop XSL files, and then run XML and XSL files together in an XSL processor (such as Saxon or Xalan) to produce output. 
 
-```markdown
-Syntax highlighted code block
+4.) ANT (ant-death-star.xml): An ant script is a tool information architects use to run XML and XSL files together in an XSL processor (other tools include the Command Line Interface or oXygen XML Editor). This Ant script was created to be run in Eclipse, and to run the files death-star.xml and death-star.xsl though the Saxon XSL processor to output death-star.html.
 
-# Header 1
-## Header 2
-### Header 3
+5.) HTML (death-star.html): Output result of the publishing process.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arrrrrr/Mustafar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+6.) CSS (death-star.css): Information architects develop CSS to style HTML files.
