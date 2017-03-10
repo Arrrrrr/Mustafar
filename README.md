@@ -195,3 +195,6 @@ body {
 ## The end
 
 Want to see the final result? Click [HERE](death-star.html)
+
+### About the Author
+Agent K is a Wizard's apprentice.
