@@ -2,7 +2,7 @@
 
 How much fun? Just keep scrolling to find out.
 
-## DTD (death-star.dtd(myLib/death-star.dtd))
+## DTD (death-star.dtd[a relative link](myLib/death-star.dtd))
 
 A DTD structures your XML. A DTD tells your XML file which element tags it is allowed to use. Information architects develop DTDs to control the structure of content.
 
