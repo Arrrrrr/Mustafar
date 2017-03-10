@@ -2,9 +2,27 @@
 
 How much fun? Just keep scrolling to find out.
 
-## DTD (death-star.dtd)
-[a relative link](death-star.dtd)
+## DTD
+
 A DTD structures your XML. A DTD tells your XML file which element tags it is allowed to use. Information architects develop DTDs to control the structure of content.
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
 
 ## XML (death-star.xml)
 
