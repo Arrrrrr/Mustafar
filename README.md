@@ -1,4 +1,4 @@
-# Publishing is sort of funish most of the time.
+# Publishing = FUN
 
 How much fun? Just keep scrolling to find out.
 
