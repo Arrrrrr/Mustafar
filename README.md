@@ -7,26 +7,55 @@ How much fun? Just keep scrolling to find out.
 A DTD structures your XML. A DTD tells your XML file which element tags it is allowed to use. Information architects develop DTDs to control the structure of content.
 
 ```markdown
-Syntax highlighted code block
+example - death-star.dtd
 
-# Header 1
-## Header 2
-### Header 3
+<?xml version="1.0" encoding="UTF-8"?>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<!ELEMENT deathstar (name,summary,assets+)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT summary (#PCDATA)>
+    <!ELEMENT assets (weapons+,sithlords+,admirals+)>
+       <!ELEMENT weapons (weapon+)>
+            <!ELEMENT weapon (#PCDATA)>
+       <!ELEMENT sithlords (master,apprentice)>
+            <!ELEMENT master (#PCDATA)>
+            <!ELEMENT apprentice (#PCDATA)>
+        <!ELEMENT admirals (admiral+)>
+            <!ELEMENT admiral (#PCDATA)>
 ```
 
-## XML (death-star.xml)
+## XML
 
 A file written in element tags. Its structure is controlled by the DTD. Authors write content in XML files.
+
+
+```markdown
+example - death-star.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deathstar SYSTEM "death-star.dtd">
+<deathstar>
+    <name>The Death Star</name>
+    <summary>A powerful weapon that can destroy entire planets</summary>
+    <assets>
+        <weapons>
+            <weapon>Super laser</weapon>
+            <weapon>TIE fighters</weapon>
+            <weapon>Light sabers</weapon>
+            <weapon>Turbo lasers</weapon>
+        </weapons>
+        <sithlords>
+            <master>Darth Sidious</master>
+            <apprentice>Darth Vader</apprentice>
+        </sithlords>
+        <admirals>
+            <admiral>Tarkin</admiral>
+            <admiral>Motti</admiral>
+            <admiral>Tagge</admiral>
+        </admirals>
+    </assets>
+</deathstar>
+```
 
 ## XSL (death-star.xsl)
 
