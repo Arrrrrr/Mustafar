@@ -2,9 +2,9 @@
 
 How much fun? Just keep scrolling to find out.
 
-## DTD
+## DTD / Schema
 
-A DTD structures your XML. A DTD tells your XML file which element tags it is allowed to use. Information architects develop DTDs to control the structure of content.
+A DTD / Schema structures XML. A DTD / Schema tells the XML file which element tags it is allowed to use. Information architects develop DTD / Schema to control the structure of content.
 
 ```markdown
 example - death-star.dtd
@@ -119,7 +119,7 @@ example - death-star.xsl
 
 ## ANT
 
-An ant script is a tool information architects use to run XML and XSL files together in an XSL processor (other tools include the Command Line Interface or oXygen XML Editor). This Ant script was created to be run in Eclipse, and to run the files death-star.xml and death-star.xsl though the Saxon XSL processor to output death-star.html.
+An ant script is a tool information architects use to run XML and XSL files together in an XSL processor. This Ant script was created to be run the files death-star.xml and death-star.xsl though Saxon XSL processor to output death-star.html.
 
 ```markdown
 example - ant-death-star.xml
