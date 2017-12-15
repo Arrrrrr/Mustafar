@@ -11,6 +11,7 @@
             <head>
                 <title>Death star information</title>
                 <link rel="stylesheet" href="death-star.css"/>
+                <link rel="shortcut icon" href="readme-source/ani.ico" type="image/x-icon"/>
             </head>
             <body>
                     <h1>
